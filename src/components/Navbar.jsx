@@ -1,4 +1,4 @@
-import { Badge, styled } from "@material-ui/core";
+import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import styledComponents from "styled-components";
 
@@ -81,7 +81,7 @@ const Navbar = () => {
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <Badge badgeContent={1} color="primary">
+            <Badge badgeContent={1}>
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>
